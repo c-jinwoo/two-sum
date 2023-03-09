@@ -4,7 +4,9 @@
     내용 : 2주차 과제
 """
 
-def twoSum(nums: list[int], target: int) -> list[int]:
+from typing import List
+
+def twoSum(nums: List[int], target: int) -> List[int]:
     ans = []
 
     for i in (0, len(nums) - 2):
@@ -19,4 +21,3 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
     return ans
 
-    
